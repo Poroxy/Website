@@ -57,9 +57,11 @@ die("dead");
 			
 			<h1>Edit Course</h1>
 			<!---<div>Login</div>--->
-
+			
+			<label> Subject Name </label><br>
 			<input id="text" type="text" name="subject_name" value=<?php echo $subject_name;?> id=subject_name><br><br>
 			
+			<label> Subject Comment </label><br>
 			<input id="text" type="text" name="subject_comment" value="<?php if (!$subject_comment == "") {echo $subject_comment;} ?>"<br><br>
 
 			<input id="button" type="submit" value="Edit"><br><br>
