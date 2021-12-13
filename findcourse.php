@@ -54,7 +54,8 @@ if($_SERVER['REQUEST_METHOD'] == "POST")
 			
 			<h1>Find a Course</h1>
 			<!---<div>Login</div>--->
-
+			
+			<label> Subject Name </label><br>
 			<input id="text" type="text" name="subject_name"><br><br>
 			
 
