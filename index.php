@@ -64,9 +64,12 @@ body {
   
   <div class="column">
     <h1>About: Courses</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. 
-	Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, r
-	isus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+    <p> There are two sections to the courses, the Add Course and the Find Course.
+	The add course allows the user to input a new course name and add a small description of it.
+	It will also display the current courses that are already on the database. If the uses
+	tries to add the same one again it will come up with a notification stating it has been added.
+	The next bit is the finding the course, once you have found the course you are looking for
+	you will be able to edit or delete the course name and comment.</p>
   </div>
   
   
